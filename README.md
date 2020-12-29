@@ -25,11 +25,11 @@ Project ini menggunakan Teknologi antara lain
 Si Gateway membutuhkan [Python 3](https://python.org/) untuk berjalan
 
 Install librari yang diperlukan untuk menjalan Django dengan cara
-
 Membuat environment terlebih dahulu serta masuk ke folder project Django
 ```
 > cd SiG - Django 3.1 Websockets
 > python3 -m venv venv
+> pip install -r req.txt 
 ```
 
 dan Masuk ke Environment dengan cara
