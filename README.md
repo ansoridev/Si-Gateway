@@ -28,18 +28,19 @@ Install librari yang diperlukan untuk menjalan Django dengan cara
 Membuat environment terlebih dahulu serta masuk ke folder project Django
 ```
 > cd SiG - Django 3.1 Websockets
-> python3 -m venv venv
-> pip install -r req.txt 
+> python3 -m venv venv 
 ```
 
 dan Masuk ke Environment dengan cara
 - Windows
 ```
 > "venv/Scripts/activate"
+> pip install -r req.txt
 ```
 - Linux
 ```
-> source "venv/bin/activate"
+$ source "venv/bin/activate"
+$ pip install -r req.txt
 ```
 
 Lalu anda bisa menjalankan proses migrasi dengan cara sebagai berikut
